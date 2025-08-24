@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer  base{
+  body{
+    @apply bg-gray-950 text-gray-200 font-sans;
+  }
+}
+@layer components{
+  .square{
+    @apply w-25 h-25 text-3xl font-bold gap-[1px] border border-gray-700 hover:bg-[#0005] transition ;
+  }
+  .status{
+    @apply mb-4 text-2xl font-bold -mt-4 text-gray-400;
+  }
+}
